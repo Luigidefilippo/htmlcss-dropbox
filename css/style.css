@@ -41,16 +41,36 @@ img{
     /* DEBUG */
     border: 2px solid red;
 }
+.link-right{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+.inizia{
+    padding: 10px;
+    color: white;
+    background-color: blue;
+    
+}
+
 
 .left-nav {
     width: 30%;
     /* DEBUG */
     border: 2px solid red;
 }
+.link-left{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
 
 .jumbotron {
     background-color: #b4d0e7;
     padding-top: 80px;
+    object-fit: cover;
     /* DEBUG */
     height: 600px;
 }
@@ -62,3 +82,104 @@ img{
     height: 400px;
     border: 2px solid red;
 }
+.titolo1 {
+    font-size: 50px;
+}
+.description{
+    display: flex;
+}
+/* MAIN */
+
+.plane {
+    width: 60%;
+    margin: 50px auto;
+    /* DEBUG */
+    background-color: grey;
+    height: 900px;
+}
+
+.plane-choise {
+    margin: 0 auto;
+    width: 100%;
+    /* DEBUG */
+    height: 120px;
+    border: 2px solid red;
+}
+.cost {
+    gap: 20px;
+    /* DEBUG */
+    height: 600px;
+    border: 2px solid blue;
+}
+.plane-cost {
+    width: calc(100% / 3);
+    /* DEBUG */
+    height: 600px;
+    border: 2px solid red;
+}
+
+.enterprise {
+    margin-top: 50px;
+    width: 100%;
+    /* DEBUG */
+    height: 180px;
+    border: 2px solid red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+.first-footer{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex: start;
+    padding: 30px 0;
+}
+.footer-column{
+    margin: 10px 0;
+    display: block;
+    padding-left: 40px;
+}
+.footer-column h3{
+    color: white ;
+}
+.footer-column a{
+    display: block;
+    color: white;
+    padding: 8px 0;
+}
+.footer-board{
+    margin-top: 80px;
+    border-top: 2px solid lightgray;
+}
+.lingua-footer{
+    margin-top: 20px;
+}
+.icon{
+    align-items: center;
+}
+
