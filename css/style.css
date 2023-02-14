@@ -170,6 +170,37 @@ img{
     border: 2px solid red;
     height: 350px;
 }
+.team {
+    width: 60%;
+    margin: 50px auto;
+    /* DEBUG */
+    height: 200px;
+    border: 2px solid red;
+    background-color: grey;
+}
+
+.clients{
+    width: 100%;
+    margin: 0 auto;
+    /* DEBUG */
+    height: 400px;
+    background-color: grey;
+    border: 2px solid red;
+}
+
+.column {
+    width: calc(100% / 3);
+    flex-wrap: wrap;
+    /* DEBUG */
+    height: 400px;
+    border: 2px solid blue;
+}
+.img {
+    width: calc(100% / 2);
+    /* DEBUG */
+    height: auto;
+    border: 2px solid black;
+}
 
 
 
